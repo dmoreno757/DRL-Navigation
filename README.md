@@ -61,6 +61,8 @@ Within my train function, this is where the Deep Q learning happens.
 The training will start with the settings I set. I recommend using GPU to run.
 Once done, I get my results and my results in a line graph showing my score through episodes.
 
+![Alt text](https://github.com/dmoreno757/DRL-Navigation/blob/main/reward.PNG "Score")
+
 ### Future Work:
 Read more reseach papers on DQN, and try to create two networks that can race each other at the same time.
 Try to make a two player type of game.
