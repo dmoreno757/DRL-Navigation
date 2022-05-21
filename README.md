@@ -61,6 +61,10 @@ Within my train function, this is where the Deep Q learning happens.
 The training will start with the settings I set. I recommend using GPU to run.
 Once done, I get my results and my results in a line graph showing my score through episodes.
 
+### Future Work:
+Read more reseach papers on DQN, and try to create two networks that can race each other at the same time.
+Try to make a two player type of game.
+
 Resource:
  - Udacity lesson 2
  - https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md
