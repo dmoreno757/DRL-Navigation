@@ -45,8 +45,19 @@ Using A Deep Q learning Network, the agent was able to collect 13 bananas in 322
 Must first import the Agent, which also imports the model.
 With the agent we will set up the options for it
  - state_size, action_size, and seed
-Within my train function, this is whee the Deep Q learning happens.
+ - BUFFER_SIZE = int(1e5)  
+ - BATCH_SIZE = 64         
+ - GAMMA = 0.99            
+ - TAU = 1e-3              
+ - LR = 5e-4               
+ - UPDATE_EVERY = 4
+For my paremeters I kept it the same for my agent file where the nueral network is located.
+The Nueral network has different layers using pytorch.
+
+Within my train function, this is where the Deep Q learning happens.
+
  - n_episodes, max_t, eps_start, eps_end, eps_decay
+
 The training will start with the settings I set. I recommend using GPU to run.
 Once done, I get my results and my results in a line graph showing my score through episodes.
 
